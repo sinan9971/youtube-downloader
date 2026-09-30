@@ -20,7 +20,7 @@ version = 1.0.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.10.12,kivy,openssl,requests,urllib3,certifi,chardet,idna
+requirements = python3,kivy,openssl,requests,urllib3,certifi,chardet,idna,yt-dlp
 
 # (str) python-for-android branch to use, defaults to master
 p4a.branch = master
