@@ -27,6 +27,7 @@ jobs:
 
       - name: Build APK with Buildozer
         run: |
+          rm -rf .buildozer
           unset ANDROID_NDK
           unset ANDROID_NDK_HOME
           unset ANDROID_NDK_ROOT
