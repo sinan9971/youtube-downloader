@@ -20,7 +20,7 @@ version = 1.0.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,urllib3,certifi,chardet,idna
+requirements = python3,kivy,openssl,requests,urllib3,certifi,chardet,idna
 
 # (str) python-for-android branch to use, defaults to master
 p4a.branch = master
@@ -41,7 +41,7 @@ android.api = 33
 android.minapi = 21
 
 # (str) Android NDK version to use
-android.ndk = 25b
+android.ndk = 23b
 
 # (bool) If True, then skip trying to update the Android sdk
 # This can be useful to avoid excess Internet downloads or save time
