@@ -27,7 +27,7 @@ jobs:
 
       - name: Izradi APK pomoću Buildozera
         run: |
-          buildozer android debug
+          buildozer -v android debug
 
       - name: Spremi APK kao artefakt za preuzimanje
         uses: actions/upload-artifact@v4

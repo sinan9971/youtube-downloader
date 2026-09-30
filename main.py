@@ -16,6 +16,13 @@ from kivy.utils import platform
 from kivy.graphics import Color, Rectangle, RoundedRectangle
 import yt_dlp
 
+# Osiguraj valjane SSL certifikate na Androidu za yt-dlp HTTPS komunikaciju
+try:
+    import certifi
+    os.environ["SSL_CERT_FILE"] = certifi.where()
+except Exception:
+    pass
+
 
 def request_android_permissions():
     """Zatraži dozvole na Androidu (pohrana i internet)."""
