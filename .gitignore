@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+!buildozer.spec
+
+# Build & Packages
+build/
+.buildozer/
+bin/
+*.egg-info/
+
+# Preuzeti medijski fajlovi
+*.mp4
+*.mp3
+*.m4a
+*.webm
+*.part
+*.ytdl
+
+# Okruženje i OS
+.env
+venv/
+.venv/
+.DS_Store
+Thumbs.db
+
+# Velike binarne datoteke (instaleri i exe se obično stavljaju pod GitHub Releases)
+dist/
