@@ -20,7 +20,7 @@ version = 1.0.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,openssl,requests,urllib3,certifi,chardet,idna
+requirements = python3,kivy,urllib3,certifi,chardet,idna
 
 # (str) python-for-android branch to use, defaults to master
 p4a.branch = master
@@ -54,7 +54,7 @@ android.accept_sdk_license = True
 
 # (str) The Android archs to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
 # In modern Android, arm64-v8a is the standard
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 
 # (bool) Allow backup of user data
 android.allow_backup = True
